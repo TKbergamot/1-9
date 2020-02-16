@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: 960px;
+	margin: 50px auto;
+	letter-spacing: -1em;
+}
+
+.content-box {
+	width: 300px;
+	border: 1px solid whitesmoke;
+	position: relative;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.content-box:nth-child(3) {
+	margin: 0;
+}
+
+.content {
+	margin: 10px;
+	letter-spacing: normal;
+}
+
+img {
+	width: 280px;
+}
+
+h2 {
+	color: #fff;
+	background-color: orange;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
